@@ -1,0 +1,4 @@
+Flask==2.3.3
+Flask-SQLAlchemy==3.1.1
+Flask-RESTful==0.3.10
+PyJWT==2.8.0   # optional for JWT

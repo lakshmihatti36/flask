@@ -91,8 +91,8 @@ class StudentResource(Resource):
         return jsonify({"message": "Student deleted"})
 
 # API routes
-api.add_resource(StudentListResource, "/students")
-api.add_resource(StudentResource, "/students/<int:student_id>")
+api.add_resource(StudentListResource, "/school/students")
+api.add_resource(StudentResource, "/school/students/<int:student_id>")
 
 if __name__ == "__main__":
     app.run(debug=True)

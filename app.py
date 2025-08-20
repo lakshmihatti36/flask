@@ -97,6 +97,8 @@ api.add_resource(StudentResource, "/school/students/<int:student_id>")
 def hello():
     return " hi "
 
+def hi():
+    return "hello"
 
 if __name__ == "__main__":
     app.run(debug=True)

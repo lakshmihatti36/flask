@@ -100,6 +100,10 @@ def hello():
 def hi():
     return "hello"
 
+
+def switch():
+    return "switched"
+
 if __name__ == "__main__":
     app.run(debug=True)
 
